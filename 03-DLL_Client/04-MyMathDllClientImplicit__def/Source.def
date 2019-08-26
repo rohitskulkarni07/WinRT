@@ -1,0 +1,3 @@
+LIBRARY MyMathDllDef
+EXPORTS
+	MakeSquare
