@@ -1,0 +1,9 @@
+LIBRARY ExerciseDLL
+EXPORTS
+	AdditionOfTwoInt
+	SubtractionOfTwoInt
+	MultiplicationOfTwoInt
+	DivisionOfTwoInt
+	ModOfTwoInt
+	SwapTwoIntUsingTemp
+	SwapTwoIntWithoutTemp
