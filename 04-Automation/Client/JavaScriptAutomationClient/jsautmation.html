@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+	<title>Automation Javascript Client</title>
+	<object id="automation" name="automation" classid="clsid:D6531AE7-9C69-44A8-9815-527760207C2C">
+	</object>
+</head>
+
+<body>
+<script language="javascript" type="text/javascript">
+
+	document.addEventListener("click",comMethod_click, true);
+
+	function comMethod_click() {
+		console.log(automation);
+		var returnCode = automation.SumOfTwoIntegers(num1.value,num2.value);
+		var msg = "Sum of " + num1.value + " and " + num2.value + " is " + returnCode;
+		alert("Inoke succesfull");
+		alert(msg);
+	}
+
+</script>
+
+	<table>
+
+		<tr>
+			<td>
+				<label>Num1</label>
+				<textarea id="num1" rows="1" cols="7" >10</textarea>
+				
+				<label>Num2</label>
+				<textarea id="num2" rows="1" cols="7" >20</textarea>
+
+				<button id="mybutton" onclick="comMethod_click()">CALL COM METHOD</button>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>

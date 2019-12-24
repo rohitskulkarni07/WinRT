@@ -1,0 +1,9 @@
+ERORR:FAILD TO LOAD SPECIFIED MODULE
+SOln: Check the path in reg file 
+
+ERROR:DLL Initialization Routine failed
+Soln: Check the DLL MAIN....i have forgeten to write return stmt at the end of the dll main
+
+
+ERROR:NO SUCH INTERFACE SUPPOERTED
+Soln: recheck the code of method ICLASSFACTORY::QUERY INTERFACE 

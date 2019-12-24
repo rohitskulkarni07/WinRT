@@ -1,0 +1,15 @@
+please check your client must be 64 bit
+
+Error:a value of type "const wchar_t *" cannot be used to initialize an entity of type "OLECHAR *""
+
+Solution:You need to make your string literal type const because in C++ or in C it is a 	constant array of char, unlike in early(98 std) C where it is just an array of char.
+	You cannot change a string literal, so making it const is preferred in C++ for extra 	safety. 
+
+	
+ERROR and INFO:argument of type "const OLECHAR **" is incompatible with parameter of type "LPOLESTR *"
+
+GetIDsOfName funtion needs Address of function (name of a function itself address of a first instruction) it must be type of LPOLESTR and we are passing it OLECHAR
+THat must need to be typecasted to LPOLESTR*
+
+Solution::(LPOLESTR*)&szFunctionName1 this will solve the error
+

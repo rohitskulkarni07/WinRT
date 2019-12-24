@@ -1,0 +1,6 @@
+﻿  AutomationProxyStub.c
+  AutomationProxyStubDllData.c
+  AutomationProxyStubGuids.c
+  Generating Code...
+     Creating library D:\WinRT\COM\04-Automation\Server\AutomationProxyStub\x64\Debug\AutomationProxyStub.lib and object D:\WinRT\COM\04-Automation\Server\AutomationProxyStub\x64\Debug\AutomationProxyStub.exp
+  AutomationProxyStub.vcxproj -> D:\WinRT\COM\04-Automation\Server\AutomationProxyStub\x64\Debug\AutomationProxyStub.dll

@@ -1,0 +1,9 @@
+Use x64 native Command promt of visual studio
+
+use namespace Correctly
+
+as Our client is console base use same command prompt to run the client .exe
+
+error: Syntax error ; missing 
+
+solution i have forget to give concatination + operator in console.WriteLine();

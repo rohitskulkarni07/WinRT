@@ -1,0 +1,7 @@
+﻿  AutomationProxyStub.c
+  AutomationProxyStubDllData.c
+  AutomationProxyStubGuids.c
+  Generating Code...
+AutomationProxyStub.def : error LNK2001: unresolved external symbol DllRegisterServer
+AutomationProxyStub.def : error LNK2001: unresolved external symbol DllUnregisterServer
+D:\WinRT\COM\04-Automation\Server\AutomationProxyStub\Debug\AutomationProxyStub.lib : fatal error LNK1120: 2 unresolved externals
